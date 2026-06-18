@@ -333,13 +333,7 @@ footer {
   transition: filter 0.2s ease;
 }
 
-.socials a:hover .icon-link,
-.socials a:focus .icon-link {
-  filter: brightness(0) saturate(100%) invert(56%) sepia(45%) saturate(467%)
-    hue-rotate(122deg) brightness(92%) contrast(86%);
-}
-
-@media (max-width: 700px) {
+@media (max-width: 1000px) {
   body {
     overflow-x: hidden;
   }
@@ -392,7 +386,7 @@ footer {
 
   .track-descri,
   .b1 {
-    font-size: 1.05rem;
+    font-size: 1rem;
   }
 
   .buttons {
@@ -408,7 +402,7 @@ footer {
     max-width: 300px;
     margin: 0 auto;
     text-align: center;
-    font-size: 1.05rem;
+    font-size: 1rem;
     padding: 0.85rem 1.5rem;
   }
 
@@ -484,7 +478,7 @@ footer {
     grid-template-rows: none;
     grid-template-columns: none;
     justify-items: center;
-    row-gap: 0.9rem;
+    row-gap: 1rem;
   }
 
   .socials {
